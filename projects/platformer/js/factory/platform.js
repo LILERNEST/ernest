@@ -14,9 +14,6 @@
             platform.body.immovable = immovable || true;
             return platform;
         }
-        opspark.platform.create = create; 
-        createPlatform(400, 460);   
-createPlatform(300, 200, 0.3)       
-           
+        opspark.platform.create = create;
     };
 })(window);

@@ -28,6 +28,7 @@
         
         // example: 
         createCannon("top", 48);
+        createCannon("top", 450);
         
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
@@ -35,4 +36,3 @@
     };
     cannon.init = init;
 })(window);
-

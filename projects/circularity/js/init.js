@@ -53,7 +53,7 @@ var init = function (window) {
             physikz.updatePosition(  );
             physikz.updatePosition( );
             physikz.updatePosition( );
-        }
+        
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
            
