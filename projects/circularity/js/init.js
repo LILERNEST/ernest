@@ -32,7 +32,7 @@ var init = function (window) {
           }
 
         // TODO 3 / 8 : Call the drawCircle() function 
-        drawCircle()
+        drawCircle() 
        drawCircle()
        drawCircle()
       drawCircle()
@@ -47,7 +47,7 @@ var init = function (window) {
         and check to see if it has drifted off the screen.         
         */
         function update() {
-            // TODO 4 : Update the circle's position //
+            // TODO 4 :9 Update the circle's position //
             physikz.updatePosition(  );
             physikz.updatePosition( );
             physikz.updatePosition(  );
@@ -56,10 +56,18 @@ var init = function (window) {
         
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
-           
+            game.checkCirclePosition( /* Your Bracket Notation HERE */ );
+            game.checkCirclePosition( /* Your Bracket Notation HERE */ );
+            game.checkCirclePosition( /* Your Bracket Notation HERE */ );
+            game.checkCirclePosition( /* Your Bracket Notation HERE */ );
+            game.checkCirclePosition( /* Your Bracket Notation HERE */ );
 
             // TODO 9 : Iterate over the array
-           
+            for (var i = 0; i < myArray.length; i++) {
+                var eachValue = myArray[i];
+                
+                // code to repeat using eachValue
+            }
             
         }
     
@@ -76,11 +84,15 @@ var init = function (window) {
             }
             
             // TODO 7 : YOUR CODE STARTS HERE //////////////////////
-            
-
+            if (circle.x > canvas.width) {
+                circle.x = 0;
+            }
+        /* Your conditional statements HERE */
 
             // YOUR TODO 7 CODE ENDS HERE //////////////////////////
-        }
+        } 
+         var rightEdge = circle.x + circle.radius;
+
         
         /////////////////////////////////////////////////////////////
         // --- NO CODE BELOW HERE  --- DO NOT REMOVE THIS CODE --- //
